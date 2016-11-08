@@ -33,6 +33,10 @@
 
 # DOCUMENTATION
 
+##GETTING STARTED
+Run npm install from the root folder of the project.
+npm start will start the server, and react-native run-ios will run the app in your iOS simulator. For more information check Facebook's official documentation at https://facebook.github.io/react-native/docs/getting-started.html.
+
 ## REDUX
 This app manages all its client side state using Redux.  This means that none of the React components hold their own state, and instead are just pure functions which take props and return as JSX view.
 
